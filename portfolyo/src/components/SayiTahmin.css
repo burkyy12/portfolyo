@@ -1,0 +1,41 @@
+.oyun-kutusu {
+  max-width: 400px;
+  padding: 20px;
+  border: 5px solid var(--kenar);
+  border-radius: 12px;
+  background-color: var(--kart);
+}
+
+.oyun-kutusu h3 {
+  margin-top: 0;
+  color: var(--vurgu);
+}
+
+.oyun-kutusu input {
+  width: 100px;
+  padding: 8px;
+  margin-right: 8px;
+  border: 2px solid var(--kenar);
+  border-radius: 8px;
+  font-family: inherit;
+}
+
+.oyun-kutusu button {
+  padding: 8px 14px;
+  margin-right: 8px;
+  border: none;
+  border-radius: 8px;
+  background-color: var(--vurgu);
+  color: #ffffff;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.oyun-kutusu button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.oyun-mesaj {
+  font-weight: bold;
+}

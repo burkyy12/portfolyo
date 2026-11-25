@@ -1,0 +1,17 @@
+.proje-karti {
+  flex: 1 1 250px;
+  padding: 20px;
+  border: 5px solid var(--kenar);
+  border-radius: 12px;
+  background-color: var(--kart);
+}
+
+.proje-karti h3 {
+  margin-top: 0;
+  color: var(--vurgu);
+}
+
+.proje-karti a {
+  color: var(--vurgu);
+  word-break: break-all;
+}
